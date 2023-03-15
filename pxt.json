@@ -1,0 +1,30 @@
+{
+    "name": "Monitor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-calliope-sparkfunqwiicopenlog": "github:CalliTGS3/pxt-calliope-sparkfunQwiicOpenLog#5b6c324e252240c7cbcb56f977adfd6ed725b14a",
+        "OLED12864_I2C": "github:CalliTGS3/OLED12864_I2C#bffab279a7302996f6fdcb9b3e477101234c0603"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.29",
+        "tag": "v4.0.29",
+        "commits": "https://github.com/microsoft/pxt-calliope/commits/5a1ba75dc9f06c3fbddf4f40fc154cdd4dc826f1",
+        "target": "4.0.29",
+        "pxt": "7.0.18",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
